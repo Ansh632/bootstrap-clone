@@ -1,0 +1,42 @@
+.image-switcher {
+  padding: 4rem 0;
+}
+
+.image-switcher .switcher-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.image-switcher #viewer {
+  border: 2px solid #ddd;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.image-switcher #mainImg {
+  max-width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.image-switcher .menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.image-switcher .menu button {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: 1px solid var(--color-brand);
+  background: var(--color-white);
+  color: var(--color-dark);
+  border-radius: 0.3rem;
+  transition: 0.3s;
+}
+
+.image-switcher .menu button:hover {
+  background: var(--color-brand);
+  color: var(--color-dark);
+}

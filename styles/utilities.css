@@ -1,0 +1,239 @@
+/*------------  UTILITY CLASSESS  -----------*/
+
+/* Class	Meaning
+p-160	padding on all sides (160px)
+py-16	padding on top and bottom
+px-16	padding on left and right
+pt-16	padding on top only
+pb-16	padding on bottom only
+pl-16	padding on left only
+pr-16	padding on right only
+
+Class	Meaning
+.m-16	Margin on all sides
+.my-16	Margin on top & bottom
+.mx-16	Margin on left & right
+.mt-16	Margin-top only
+.mb-16	Margin-bottom only
+.ml-16	Margin-left only
+.mr-16	Margin-right only
+
+✅ Text Alignment
+Class	Meaning
+.text-left	Align text to the left
+.text-center	Center-align text
+.text-right	Align text to the right
+
+✅ Display & Flex Utilities
+Class	Meaning
+.flex	display: flex
+.inline-flex	display: inline-flex
+.flex-center	align-items & justify-content: center
+.flex-between	justify-content: space-between
+
+✅ Text Styling
+Class	Meaning
+.text-sm	Smaller text size
+.text-lg	Larger text size
+.font-bold	Bold text
+.uppercase	Uppercase text
+
+*/
+
+.py-160{
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+
+.py-16{
+  padding-top:1.6rem;
+  padding-bottom:1.6rem;
+}
+
+.px-16{
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.padding-all-30{
+  padding-top:3.0rem;
+  padding-bottom:3.0rem;
+  padding-left: 3.0rem;
+  padding-right:3.0rem;
+}
+.px-30{
+  padding-left: 3.0rem;
+  padding-right:3.0rem;
+}
+
+.py-top-40{
+  padding-top:4rem;
+}
+
+
+
+.flex-start {
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;/*testing for now or give button align item personally ok */
+  
+}
+.flex-column-space-between{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.justify-content-between{
+  display: flex;
+  justify-content:space-between;
+}
+
+
+/* -------- FLEX GAP UTILITIES -------- */
+/* 1rem = 10px (base: 62.5% font-size) */
+
+.gap-4  { gap: 0.4rem; }   /* 4px gap */
+.gap-8  { gap: 0.8rem; }   /* 8px gap */
+.gap-12 { gap: 1.2rem; }   /* 12px gap */
+.gap-16 { gap: 1.6rem; }   /* 16px gap */
+.gap-24 { gap: 2.4rem; }   /* 24px gap */
+.gap-32 { gap: 3.2rem; }   /* 32px gap */
+.gap-48 { gap: 4.8rem; }   /* 48px gap */
+.gap-64 { gap: 6.4rem; }   /* 64px gap */
+.gap-94 { gap: 9.4rem; }   /* 64px gap */
+
+
+.hr-line {
+  height: 1px;
+  width: 60px;
+}
+
+/*------------  row holder  -----------*/
+
+.row-holder {
+  display: flex;
+}
+
+.layout-control{
+  display: flex;
+  flex: 0 1 90%;
+}
+
+.stats-intro{
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 90%;
+
+  flex-wrap: wrap;
+}
+
+.flex-1{
+flex:1
+}
+.flex-2{
+  flex: 2;
+}
+
+
+#hightlight-text {
+  color: var(--color-brand);
+}
+
+.white-space{
+  white-space: pre-line;
+}
+
+.bg-primary { 
+  background-color: var(--primary-bg-color);
+}
+
+.dark-bg{
+  background-color:var(--color-dark)
+}
+
+.surface-dark{
+  background-color: var(--color-dark);
+  color: white;
+}
+
+
+
+.white-color{
+ color: var(--color-white);
+}
+
+.white-bg-color{
+  background-color:white ;
+}
+
+.badge{
+  background-color: white;
+  color: #000;
+}
+
+
+.bg-color{
+  background-color: var(--color-brand);
+  height: 100%;
+}
+
+
+
+
+/* .row-holder > .stats-header {
+  flex: 0 0 30%;   
+}
+
+.row-holder > .row {
+  flex: 1;         
+} */
+
+/*------------  column of row holder  -----------*/
+
+/* .row-child{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: flex-start;
+  
+} */
+
+ /*------------  button size has per design  -----------*/
+/* .btn-sm {
+  font-size: 1.4rem;
+  padding: 0.4rem 1.6rem; 
+}
+
+.btn-md {
+font-size: 1.5rem;
+padding: 2rem 7rem;
+}
+
+.btn-lg {
+  font-size: 1.8rem;
+  padding: 1.2rem 3.2rem;
+}
+
+.btn-ex-lg {
+  font-size: 2rem;
+  padding: 1.6rem 4rem;
+} */
+
+/* .icon-sm { height: 32px; width: 32px; }
+.icon-md { height: 52px; width: 52px; }
+.icon-lg { height: 72px; width: 72px; } */
+
